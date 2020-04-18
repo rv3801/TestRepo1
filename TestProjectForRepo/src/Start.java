@@ -8,7 +8,7 @@ public class Start {
     }
 
     public void turnToString(){
-        System.out.print("My name is " + this.name + " and I am " + this.age + " years old.");
+        System.out.println("My name is " + this.name + " and I am " + this.age + " years old.");
     }
     public static void main(String[] args){
         Start me = new Start ("Roberto Villegas", 19);
