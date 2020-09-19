@@ -1,6 +1,6 @@
 public class Start {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     public Start(String name, int age){
         this.name = name;
